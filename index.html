@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://unpkg.com/htmx.org@1.9.4"></script>
 </head>
 <body>
-    hello world
+    <div class="product">
+        <h4>상품1 (7000원)</h4>
+        <h4>상품2 (7000원)</h4>
+        <h4>상품3 (7000원)</h4>
+        <div hx-get="/more">더보기</div>
+    </div>
 </body>
 </html>
